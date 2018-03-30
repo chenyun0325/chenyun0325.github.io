@@ -1,0 +1,44 @@
+{
+    "title": "技术文章",
+    "author" : "陈云",
+    "description" : "技术文章",
+    "language" : "zh-hans",
+    "plugins": [
+        "-sharing",
+        "editlink",
+        "git-author",
+        "expandable-chapters",
+        "toc2",
+        "hypercomments-temp",
+        "splitter",
+        "tbfed-pagefooter"
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
+        },
+        "editlink": {
+            "label": "编辑此页",
+            "base": "https://github.com/chenyun0325/chenyun0325.github.io/edit/master/"
+        },
+        "git-author": {
+            "modifyTpl": "最后修改: {user} {timeStamp}",
+            "createTpl": "创建: {user} {timeStamp}",
+            "timeStampFormat": "YYYY/MM/DD HH:mm"
+        },
+        "toc2": {
+            "addClass": true,
+            "className": "toc"
+        },
+        "hypercomments-temp": {
+            "wid": 89030,
+            "lang": "ch"
+        },
+        "tbfed-pagefooter": {
+            "copyright":"杭州电子科技大学 Copyright &copy",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss",
+            "size": 12
+        }
+    }
+}
